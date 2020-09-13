@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    line-height: 1.4;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2C5C;
+    height: 72px;
+    color: white;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    width: 170px;
+    height: 36px;
+    text-align: center;
+}
+#navbar ul li a{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 22px;
+    display: block;
+    border-radius: 6px;
+}
+#navbar ul li a:hover{
+    background-color: #364888;
+    text-decoration-line: none;
+}
+#logo {
+    width: 55px;
+    height: 48px;
+    border-radius: 20%;
+    margin-left: 30px;
+    background: url("../img/logo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#btn-menu {
+    width: 55px;
+    height: 48px;
+    border-radius: 20%;
+    margin-right: 30px;
+    padding: 10px 0px;
+    font-size: 33px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.dropdown-toggle::after {
+    display:none
+}
+#navbar .dropdown-menu a{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 22px;
+    display: block;
+    border-radius: 6px;
+}
+#navbar .dropdown-menu a:hover{
+    color: black
+}
+#navbar .dropdown-menu{
+    background-color: #1F2C5C;
+    width: 170px;
+}
+#list{
+    margin: 30px 0px;
+}
+.container-fluid{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    padding: 1.6rem;
+}
+form div {
+    padding-right: 1rem;
+}
+form .form-control{
+    height:48px;
+}
+form .search-btn{
+    height: 48px;
+    width: 90px;
+    background-color: #1F2C5C;
+    border-radius: 6px;
+    color: #ffffff;
+}
+.card-header{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    background: #FFFFFF;
+    padding: .75rem 0rem;
+}
+.card-header .add-btn{
+
+    border: 1.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.card-header .add-btn a{
+    font-weight: 600 !important;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.333333px;
+}
+.card-body{
+    padding: 0px 1.5rem;
+}
+.table tr{
+    width: 100%;
+}
+.table tbody tr {
+    border-bottom: #e0e0e0 solid 0.5px;
+}
+.btn-edit, .btn-delete{
+    border-radius: 4px !important;
+    color: white;
+}
+.btn-edit{
+    background: #5CD78F;
+}
+.btn-edit:hover{
+    background: #1db500;
+}
+.btn-delete{
+    background: #FF6F6F;
+}
+.btn-delete:hover{
+    background: #fb3811;
+}
+.card-footer{
+    background-color: white;
+    display: flex;
+    padding: .75rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.paginate {
+
+}
+.card-footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.card-footer ul li{
+    height: 40px;
+    width: 70px;
+    text-align: center;
+
+}
+.card-footer ul li a{
+    color: black;
+    padding: 0.5rem;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgba(242, 242, 242, 0.5);
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.card-footer ul li a:hover{
+    background-color: #1F2C5C;
+    color: white;
+}
+.modal-dialog {
+    max-width: 726px;
+    margin: 72px auto;
+}
+#title-form{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F4F4F;
+
+}
+.modal-body .form-group{
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+}
+.modal-body label span{
+    color: red;
+}
+.modal-body .form-group img{
+    width: 88px;
+    height: 131px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.08));
+}
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+}
+.form-control{
+    line-height: 22px;
+    height: auto;
+}
+.btn-preview{
+    background-color: #1F2C5C;
+    color:white;
+    padding: 8px 21px;
+    font-size: 15px;
+    width: 15rem;
+    height: 40px;
+    border-radius: 6px;
+}
+.modal-footer .btn-cancel{
+    border: 1.5px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #1F2C5C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.modal-footer .btn-add{
+    background: #1F2C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
